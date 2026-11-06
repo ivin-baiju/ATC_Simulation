@@ -7,6 +7,7 @@
 
 <br/><br/>
 
+[![Live App](https://img.shields.io/badge/LIVE_APP-ivin.in%2FATC__Simulation-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ivin.in/ATC_Simulation/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![TypeScript 5.7](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -21,7 +22,7 @@
   <b>A full-stack, enterprise-grade Air Traffic Control surface and terminal radar simulator paired with a real-time ADS-B live flight tracking engine, authentic airline liveries, and interactive 3D aircraft inspection.</b>
 </p>
 
-[Explore Live Radar](http://127.0.0.1:5173) • [API Documentation](http://127.0.0.1:8000/docs) • [Report Bug](https://github.com/ivin-baiju/ATC_Simulation/issues)
+[Explore Live App (ivin.in/ATC_Simulation)](https://ivin.in/ATC_Simulation/) • [API Documentation](http://127.0.0.1:8000/docs) • [Report Bug](https://github.com/ivin-baiju/ATC_Simulation/issues)
 
 </div>
 

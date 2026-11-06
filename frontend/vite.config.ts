@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 const backend = process.env.ATC_BACKEND_URL ?? "http://localhost:8000";
 
 export default defineConfig({
+  base: "./",
   plugins: [react()],
   server: {
     port: 5173,
