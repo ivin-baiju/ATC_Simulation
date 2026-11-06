@@ -1,11 +1,15 @@
 <div align="center">
 
-# ✈️ SkyCommand: ATC Surface & Terminal Simulator
-### *Next-Generation Air Traffic Control & Real-Time FlightRadar24 Platform*
+<!-- ==================== ANIMATED RADAR HERO BANNER ==================== -->
+<a href="https://github.com/ivin-baiju/ATC_Simulation">
+  <img src="./assets/radar-banner.svg" width="100%" alt="SkyCommand ATC &amp; FlightRadar Surveillance Engine Animated Banner" />
+</a>
+
+<br/><br/>
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript 5.7](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Three.js](https://img.shields.io/badge/Three.js-WebGL_3D-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
 [![ADS-B Live](https://img.shields.io/badge/ADS--B-OpenSky_Live-167D8D?style=for-the-badge&logo=radar&logoColor=white)](https://opensky-network.org)
 [![WCAG AA](https://img.shields.io/badge/Accessibility-WCAG_AA_Compliant-success?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -13,28 +17,15 @@
 
 > **⚠️ SAFETY NOTICE:** SIMULATION ONLY — NOT FOR REAL-WORLD OPERATIONAL AIR TRAFFIC MANAGEMENT.
 
-```
-                ▲
-               / \         [ SKYCOMMAND ATC RADAR ]
-              /   \        Live Surveillance Feed: ACTIVE
-             /=====\       ADS-B Mode-S Receiver: ONLINE
-            /  AIR  \      3D Airframe Studio: READY
-           /  INDIA  \
-          /___________\
-              |   |        DELHI (VIDP) · MUMBAI (VABB) · BENGALURU (VOBL)
-              |   |        CHENNAI (VOMM) · HYDERABAD (VOHS) · KOCHI (VOCI)
-             (_____)       LONDON HEATHROW (EGLL) · SAN FRANCISCO (KSFO)
-```
-
 <p align="center">
   <b>A full-stack, enterprise-grade Air Traffic Control surface and terminal radar simulator paired with a real-time ADS-B live flight tracking engine, authentic airline liveries, and interactive 3D aircraft inspection.</b>
 </p>
 
-[Explore Live Radar](http://127.0.0.1:5173) • [API Documentation](http://127.0.0.1:8000/docs) • [Report Bug](https://github.com/ivin-baiju/ATC_simulation/issues)
+[Explore Live Radar](http://127.0.0.1:5173) • [API Documentation](http://127.0.0.1:8000/docs) • [Report Bug](https://github.com/ivin-baiju/ATC_Simulation/issues)
 
 </div>
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 📑 Table of Contents
 - [🌟 Key Highlights](#-key-highlights)
@@ -48,7 +39,7 @@
 - [📡 API Endpoints](#-api-endpoints)
 - [🏷️ Keywords & Indexing](#️-keywords--indexing)
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🌟 Key Highlights
 
@@ -60,7 +51,7 @@
 - **Proactive AI Separation Engine**: Detects runway incursions, taxiway conflicts, and terminal wake turbulence separation violations before near-misses occur.
 - **Strict Light Theme Aesthetic**: Purpose-built high-contrast ATC terminal UI (`--ink: #071B2B`, `--teal: #167D8D`, `--aqua: #B9E4E8`, `--paper: #EEEEEE`, `--white: #FFFFFF`) exceeding WCAG AA contrast standards.
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🛰️ Real-Time ADS-B & FlightRadar24 Features
 
@@ -73,11 +64,17 @@
 | **Airline Filter Pills** | One-click filtering for IndiGo, Air India, AI Express, SpiceJet, Vistara, Akasa, and International |
 | **Kinematic Extrapolation** | 100ms dead-reckoning heading and velocity interpolation between 5-second radar sweeps |
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🛩️ Custom 3D Aircraft Models & Authentic Liveries
 
 Every aircraft type in SkyCommand possesses an individualized 3D airframe and airline color scheme:
+
+<div align="center">
+  <img src="./assets/flight-stream.svg" alt="Live Telemetry and 3D Model HUD" width="100%" />
+</div>
+
+<br/>
 
 | Aircraft Type | Category | Signature 3D Features |
 |---|---|---|
@@ -98,7 +95,7 @@ Every aircraft type in SkyCommand possesses an individualized 3D airframe and ai
 - **British Airways (`BAW`)**: Chatham Dockyard stylized Union Jack flag tail fin.
 - **Emirates (`UAE`)**: Red, green, white, and black UAE flag livery on tail.
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🗺️ Satellite Radar & Global Airport Coverage
 
@@ -113,7 +110,7 @@ SkyCommand renders airport layouts natively from verified WGS84 GeoJSON datasets
 - 🇬🇧 **London Heathrow (EGLL / LHR)**: Runways `09L/27R`, `09R/27L`
 - 🇺🇸 **San Francisco (KSFO / SFO)**: Runways `10L/28R`, `10R/28L`, `01L/19R`, `01R/19L`
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🤖 Proactive AI ATC & Safety Separation Filter
 
@@ -142,7 +139,7 @@ flowchart TD
     end
 ```
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🛠️ Tech Stack
 
@@ -161,7 +158,7 @@ flowchart TD
 - **Simulation**: Deterministic fixed-step integer clock with SHA-256 PRNG streams
 - **Packaging**: `uv` package manager
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🚀 Quickstart & Installation
 
@@ -171,8 +168,8 @@ flowchart TD
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/ivin-baiju/ATC_simulation.git
-cd ATC_simulation
+git clone https://github.com/ivin-baiju/ATC_Simulation.git
+cd ATC_Simulation
 ```
 
 ### 2. Backend Setup
@@ -193,7 +190,7 @@ npm run dev
 
 Open your browser at **[http://127.0.0.1:5173](http://127.0.0.1:5173)**.
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 📡 API Endpoints
 
@@ -205,13 +202,13 @@ Open your browser at **[http://127.0.0.1:5173](http://127.0.0.1:5173)**.
 - `GET /api/compare` — Same-seed side-by-side comparison between AI and rule controllers
 - `GET /api/report` — Download comprehensive HTML / PDF safety evaluation report
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 ## 🏷️ Keywords & Indexing
 
 `air-traffic-control` • `atc-simulator` • `flightradar24` • `ads-b` • `opensky-network` • `threejs` • `webgl-3d` • `aviation` • `aircraft-liveries` • `fastapi` • `react19` • `typescript` • `runway-incursion` • `safety-critical` • `geojson` • `vidp-delhi` • `vabb-mumbai` • `indigo` • `air-india` • `spicejet` • `vistara` • `akasa-air`
 
----
+<img src="./assets/radar-divider.svg" alt="Section Divider" width="100%" />
 
 <div align="center">
   <sub>Crafted with engineering rigor by <b>Ivin Baiju</b>. Licensed under the MIT License.</sub>

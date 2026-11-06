@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="42" viewBox="0 0 1200 42" role="img" aria-label="Animated Air Traffic Control Radar Section Divider">
+  <defs>
+    <linearGradient id="beamLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#00f2fe"/>
+      <stop offset=".55" stop-color="#167d8d"/>
+      <stop offset=".8" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .radar-dash {
+        stroke-dasharray: 60 1100;
+        animation: beamTravel 6s linear infinite;
+      }
+      .waypoint-node {
+        animation: waypointPulse 2.8s ease-in-out infinite;
+      }
+      @keyframes beamTravel {
+        to { stroke-dashoffset: -1160; }
+      }
+      @keyframes waypointPulse {
+        0%, 100% { opacity: 0.25; transform: scale(0.9); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .radar-dash, .waypoint-node { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Baseline Track Line -->
+  <path d="M10 21H1190" stroke="#167d8d" stroke-opacity=".2" stroke-width="1"/>
+
+  <!-- Animated Sweeping Beam -->
+  <path class="radar-dash" d="M10 21H1190" fill="none" stroke="url(#beamLine)" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Waypoint Fix Nodes -->
+  <g class="waypoint-node" style="transform-origin: 180px 21px;">
+    <polygon points="180,16 185,26 175,26" fill="#00f2fe"/>
+  </g>
+  <g class="waypoint-node" style="transform-origin: 480px 21px; animation-delay: 0.8s;">
+    <polygon points="480,16 485,26 475,26" fill="#38bdf8"/>
+  </g>
+  <g class="waypoint-node" style="transform-origin: 780px 21px; animation-delay: 1.6s;">
+    <polygon points="780,16 785,26 775,26" fill="#10b981"/>
+  </g>
+  <g class="waypoint-node" style="transform-origin: 1040px 21px; animation-delay: 2.2s;">
+    <polygon points="1040,16 1045,26 1035,26" fill="#00f2fe"/>
+  </g>
+</svg>
