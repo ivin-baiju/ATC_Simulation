@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "ksfo",
+    "icao": "KSFO",
+    "name": "San Francisco International Airport (United States)",
+    "fictional": false,
+    "reference": {
+      "lat": 37.6188,
+      "lon": -122.375,
+      "elevation_ft": 13.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world international airport layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-10L-28R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3945672,
+            37.6242309
+          ],
+          [
+            -122.3554328,
+            37.6187651
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "10L",
+          "28R"
+        ],
+        "width_m": 60.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-10R-28L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3951263,
+            37.6220606
+          ],
+          [
+            -122.3548737,
+            37.6164387
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "10R",
+          "28L"
+        ],
+        "width_m": 60.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-01L-19R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3795381,
+            37.6086149
+          ],
+          [
+            -122.3750035,
+            37.6289851
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "01L",
+          "19R"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-01R-19L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3768968,
+            37.6077293
+          ],
+          [
+            -122.3719679,
+            37.6298707
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "01R",
+          "19L"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3943014,
+            37.6231167
+          ],
+          [
+            -122.3556986,
+            37.6177208
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3943014,
+            37.6177208
+          ],
+          [
+            -122.3556986,
+            37.6123249
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "B",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-T",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3795415,
+            37.6089075
+          ],
+          [
+            -122.3727292,
+            37.6286925
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "T",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-INTERNATIONAL-CONCOURSE-A-&-G",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3897599,
+              37.616102
+            ],
+            [
+              -122.3818123,
+              37.616102
+            ],
+            [
+              -122.3818123,
+              37.621498
+            ],
+            [
+              -122.3897599,
+              37.621498
+            ],
+            [
+              -122.3897599,
+              37.616102
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "International Concourse A & G"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-IN-A01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3874892,
+          37.6192497
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-IN-A01",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-IN-A08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3846507,
+          37.6192497
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-IN-A08",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-IN-G02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3874892,
+          37.617451
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-IN-G02",
+        "heading_deg": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-ARCHI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1025094,
+          37.4749087
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "ARCHI",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-EDDYY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.624783,
+          37.7806777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "EDDYY",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-SFO-VOR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3806769,
+          37.6143034
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "SFO-VOR",
+        "role": "departure",
+        "altitude_ft": 3000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-OFFSHORE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1479245,
+          37.8166505
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "OFFSHORE",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    }
+  ]
+}

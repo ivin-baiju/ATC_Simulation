@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "vobl",
+    "icao": "VOBL",
+    "name": "Bengaluru Kempegowda International (BLR, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 13.1986,
+      "lon": 77.7066,
+      "elevation_ft": 3000.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-09L-27R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6881256,
+            13.2062442
+          ],
+          [
+            77.7250744,
+            13.2062442
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09L",
+          "27R"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-09R-27L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6881256,
+            13.1909558
+          ],
+          [
+            77.7250744,
+            13.1909558
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09R",
+          "27L"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Alpha",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6881256,
+            13.2077731
+          ],
+          [
+            77.7250744,
+            13.2077731
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Alpha",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Bravo",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6881256,
+            13.1894269
+          ],
+          [
+            77.7250744,
+            13.1894269
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Bravo",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Center-Link",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7066,
+            13.2062442
+          ],
+          [
+            77.7066,
+            13.1909558
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Center-Link",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-1-&-2-CENTRAL-APRON",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6992102,
+              13.1954524
+            ],
+            [
+              77.7139898,
+              13.1954524
+            ],
+            [
+              77.7139898,
+              13.2017476
+            ],
+            [
+              77.6992102,
+              13.2017476
+            ],
+            [
+              77.6992102,
+              13.1954524
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 1 & 2 Central Apron"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T1-14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7029051,
+          13.199949
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T1-14",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T2-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7102949,
+          13.199949
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T2-01",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-GUNIM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4664326,
+          13.3334981
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "GUNIM",
+        "role": "arrival",
+        "altitude_ft": 7000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-TELNO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5403302,
+          13.0007495
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "TELNO",
+        "role": "arrival",
+        "altitude_ft": 6500.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-OPAMO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.928293,
+          13.0367223
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "OPAMO",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-BIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8728698,
+          13.4144369
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "BIA",
+        "role": "departure",
+        "altitude_ft": 8500.0
+      }
+    }
+  ]
+}

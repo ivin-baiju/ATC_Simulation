@@ -1,0 +1,47 @@
+id: single_runway_ops
+name: Single Runway Mixed Operations (XSGL)
+description: >-
+  Departure SWA104 awaits release on Runway 36 at Singleton Regional while JBU77
+  is on short final for Runway 36.
+airport_id: sample_single
+duration_ms: 75000
+default_seed: 77
+spawns:
+  - callsign: SWA104
+    aircraft_type: B738
+    spawn_time_ms: 0
+    role: departure
+    initial_phase: holding_short
+    position: [120.0, -1250.0]
+    heading_deg: 270.0
+    speed_kts: 0.0
+    target_speed_kts: 0.0
+    altitude_ft: 40.0
+    assigned_runway: "18/36"
+    hold_short_of: "18/36"
+    route:
+      - [0.0, -1250.0]
+      - [0.0, 1250.0]
+  - callsign: JBU77
+    aircraft_type: A320
+    spawn_time_ms: 0
+    role: arrival
+    initial_phase: final_approach
+    position: [0.0, -2400.0]
+    heading_deg: 0.0
+    speed_kts: 132.0
+    target_speed_kts: 132.0
+    altitude_ft: 320.0
+    assigned_runway: "18/36"
+    route:
+      - [0.0, -1250.0]
+      - [0.0, 400.0]
+      - [180.0, 400.0]
+    cleared_land: true
+triggers:
+  - id: trig-swa-luaw
+    time_ms: 6000
+    callsign: SWA104
+    action: disregard_hold_short
+    runway: "18/36"
+    note: SWA104 enters Runway 36 while JBU77 is on short final

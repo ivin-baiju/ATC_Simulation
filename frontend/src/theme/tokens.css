@@ -1,0 +1,61 @@
+/*
+ * Design tokens. LIGHT THEME ONLY: there is intentionally no dark variant,
+ * no prefers-color-scheme query and no theme toggle (enforced by palette.test.ts).
+ *
+ * Base palette values MUST match src/theme/palette.ts.
+ */
+:root {
+  color-scheme: light only;
+
+  /* Base palette */
+  --ink: #071B2B;
+  --teal: #167D8D;
+  --aqua: #B9E4E8;
+  --paper: #EEEEEE;
+  --white: #FFFFFF;
+
+  /* Channel triplets for derived tints: rgb(var(--ink-rgb) / 0.12) */
+  --ink-rgb: 7 27 43;
+  --teal-rgb: 22 125 141;
+  --aqua-rgb: 185 228 232;
+
+  /* Derived tints (opacity / mix of the palette only) */
+  --text: var(--ink);
+  --text-secondary: rgb(var(--ink-rgb) / 0.72); /* passes AA on paper/white/aqua; 60% does not */
+  --border: rgb(var(--ink-rgb) / 0.12);
+  --border-strong: rgb(var(--ink-rgb) / 0.24);
+  --teal-subtle: rgb(var(--teal-rgb) / 0.1);
+  --teal-hover: color-mix(in srgb, var(--teal) 88%, var(--ink));
+  --aqua-soft: rgb(var(--aqua-rgb) / 0.45);
+  --runway-fill: color-mix(in srgb, color-mix(in srgb, var(--paper) 80%, var(--teal) 20%) 94%, var(--ink));
+
+  /* Alert scale: the one permitted exception. Alerts + conflict highlighting only,
+     always paired with an icon/label. */
+  --alert-advisory: #167D8D;
+  --alert-caution: #D97706;
+  --alert-warning: #DC2626;
+
+  /* Shape, depth, spacing */
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --radius-pill: 999px;
+  --shadow-card: 0 1px 2px rgb(var(--ink-rgb) / 0.06), 0 2px 8px rgb(var(--ink-rgb) / 0.04);
+  --shadow-raised: 0 2px 4px rgb(var(--ink-rgb) / 0.08), 0 8px 24px rgb(var(--ink-rgb) / 0.06);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* Type */
+  --font-sans: "Inter Variable", Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+
+  --focus-ring: 0 0 0 2px var(--white), 0 0 0 4px var(--teal);
+}

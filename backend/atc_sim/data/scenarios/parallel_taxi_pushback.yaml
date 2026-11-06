@@ -1,0 +1,64 @@
+id: parallel_taxi_pushback
+name: Parallel Taxiway & Sequencing (XGEN)
+description: >-
+  Three departures taxiing eastbound on Taxiway A toward Runway 27 while AFR330
+  lands on Runway 09/27 and exits via high-speed connector A3.
+airport_id: genfield
+duration_ms: 90000
+default_seed: 108
+spawns:
+  - callsign: AFR330
+    aircraft_type: A320
+    spawn_time_ms: 0
+    role: arrival
+    initial_phase: landing_roll
+    position: [-1200.0, 0.0]
+    heading_deg: 90.0
+    speed_kts: 85.0
+    target_speed_kts: 22.0
+    altitude_ft: 120.0
+    assigned_runway: "09/27"
+    route:
+      - [0.0, 0.0]
+      - [0.0, 180.0]
+      - [-600.0, 180.0]
+  - callsign: KLM642
+    aircraft_type: B738
+    spawn_time_ms: 0
+    role: departure
+    initial_phase: taxi_out
+    position: [-800.0, 180.0]
+    heading_deg: 90.0
+    speed_kts: 18.0
+    target_speed_kts: 18.0
+    altitude_ft: 120.0
+    assigned_runway: "09/27"
+    route:
+      - [0.0, 180.0]
+      - [1100.0, 180.0]
+      - [1500.0, 180.0]
+  - callsign: DLH901
+    aircraft_type: A321
+    spawn_time_ms: 0
+    role: departure
+    initial_phase: taxi_out
+    position: [-1120.0, 180.0]
+    heading_deg: 90.0
+    speed_kts: 22.0
+    target_speed_kts: 22.0
+    altitude_ft: 120.0
+    assigned_runway: "09/27"
+    route:
+      - [1500.0, 180.0]
+triggers:
+  - id: trig-klm-speed
+    time_ms: 8000
+    callsign: KLM642
+    action: hold_position
+    note: KLM642 stops before A3 intersection to give way to vacating AFR330
+  - id: trig-klm-resume
+    time_ms: 28000
+    callsign: KLM642
+    action: resume_taxi
+    target_speed_kts: 18.0
+    note: KLM642 resumes taxi once AFR330 clears A3

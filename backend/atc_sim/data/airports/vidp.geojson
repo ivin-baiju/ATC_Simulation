@@ -1,0 +1,400 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "vidp",
+    "icao": "VIDP",
+    "name": "Delhi Indira Gandhi International (DEL, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 28.5665,
+      "lon": 77.1031,
+      "elevation_ft": 777.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-11R-29L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0819311,
+            28.5687703
+          ],
+          [
+            77.1242689,
+            28.5552365
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "11R",
+          "29L"
+        ],
+        "width_m": 60.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-11L-29R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0848178,
+            28.580438
+          ],
+          [
+            77.1213822,
+            28.5687498
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "11L",
+          "29R"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-10-28",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.08394,
+            28.5532794
+          ],
+          [
+            77.12226,
+            28.5473451
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "10",
+          "28"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0826205,
+            28.5636222
+          ],
+          [
+            77.1235795,
+            28.550582
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0846684,
+            28.5762127
+          ],
+          [
+            77.1215316,
+            28.5645215
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "B",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0969561,
+            28.5772918
+          ],
+          [
+            77.0969561,
+            28.5503122
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Z",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-M",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1092439,
+            28.5754932
+          ],
+          [
+            77.1092439,
+            28.5521109
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "M",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-3-INTERNATIONAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0959322,
+              28.5673993
+            ],
+            [
+              77.1082199,
+              28.5673993
+            ],
+            [
+              77.1082199,
+              28.5718959
+            ],
+            [
+              77.0959322,
+              28.5718959
+            ],
+            [
+              77.0959322,
+              28.5673993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 3 International"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-1-DOMESTIC",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0990041,
+              28.5763925
+            ],
+            [
+              77.1071959,
+              28.5763925
+            ],
+            [
+              77.1071959,
+              28.5799898
+            ],
+            [
+              77.0990041,
+              28.5799898
+            ],
+            [
+              77.0990041,
+              28.5763925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 1 Domestic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T3-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0979801,
+          28.5696476
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T3-01",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T3-08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.102076,
+          28.5696476
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T3-08",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T3-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1061719,
+          28.5696476
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T3-15",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T1-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.101052,
+          28.5781912
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T1-01",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-IBANI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8471059,
+          28.6744184
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "IBANI",
+        "role": "arrival",
+        "altitude_ft": 7000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-DRAKO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9187842,
+          28.4046223
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "DRAKO",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-GUDUM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3283748,
+          28.4316019
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "GUDUM",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-BUTOP",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3898134,
+          28.7283777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "BUTOP",
+        "role": "departure",
+        "altitude_ft": 9000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-ALI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8983047,
+          28.7823369
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "ALI",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    }
+  ]
+}

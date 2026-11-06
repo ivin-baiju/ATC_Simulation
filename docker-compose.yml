@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ATC_CORS_ORIGINS=http://localhost:5173
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - ATC_BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend

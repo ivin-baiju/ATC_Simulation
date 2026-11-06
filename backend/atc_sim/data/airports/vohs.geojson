@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "vohs",
+    "icao": "VOHS",
+    "name": "Hyderabad Rajiv Gandhi International (HYD, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 17.2403,
+      "lon": 78.4294,
+      "elevation_ft": 2024.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-09R-27L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4093433,
+            17.2367027
+          ],
+          [
+            78.4494567,
+            17.2367027
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09R",
+          "27L"
+        ],
+        "width_m": 60.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-09L-27R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4124507,
+            17.2474946
+          ],
+          [
+            78.4463493,
+            17.2474946
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09L",
+          "27R"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Alpha",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4093433,
+            17.2383215
+          ],
+          [
+            78.4494567,
+            17.2383215
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Alpha",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Bravo",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4124507,
+            17.2458758
+          ],
+          [
+            78.4463493,
+            17.2458758
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Bravo",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Cross-1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4294,
+            17.2474946
+          ],
+          [
+            78.4294,
+            17.2367027
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Cross-1",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-PASSENGER-CONCOURSE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4228086,
+              17.2394007
+            ],
+            [
+              78.4359914,
+              17.2394007
+            ],
+            [
+              78.4359914,
+              17.2443469
+            ],
+            [
+              78.4228086,
+              17.2443469
+            ],
+            [
+              78.4228086,
+              17.2394007
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Passenger Concourse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-HYD-21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4265751,
+          17.2420986
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-HYD-21",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-HYD-28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4322249,
+          17.2420986
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-HYD-28",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-GOLKI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1939931,
+          17.0784223
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "GOLKI",
+        "role": "arrival",
+        "altitude_ft": 6500.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-NNP",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2222419,
+          17.3841913
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "NNP",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-TEXAN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6553906,
+          17.4021777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "TEXAN",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    }
+  ]
+}

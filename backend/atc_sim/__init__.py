@@ -1,0 +1,8 @@
+"""ATC simulator package.
+
+SIMULATION ONLY - NOT FOR OPERATIONAL USE.
+"""
+
+__version__ = "0.1.0"
+
+SAFETY_NOTICE = "SIMULATION ONLY - NOT FOR OPERATIONAL USE"

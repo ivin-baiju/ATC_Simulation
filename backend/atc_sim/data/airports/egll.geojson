@@ -1,0 +1,397 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "egll",
+    "icao": "EGLL",
+    "name": "London Heathrow Airport (United Kingdom)",
+    "fictional": false,
+    "reference": {
+      "lat": 51.47,
+      "lon": -0.4543,
+      "elevation_ft": 83.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world international airport layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-09L-27R",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4824523,
+            51.4762952
+          ],
+          [
+            -0.4261477,
+            51.4762952
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09L",
+          "27R"
+        ],
+        "width_m": 50.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-09R-27L",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4807198,
+            51.4637048
+          ],
+          [
+            -0.4278802,
+            51.4637048
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09R",
+          "27L"
+        ],
+        "width_m": 50.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4824523,
+            51.4776442
+          ],
+          [
+            -0.4261477,
+            51.4776442
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4807198,
+            51.4623558
+          ],
+          [
+            -0.4278802,
+            51.4623558
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "B",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Link-W",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4759556,
+            51.4762952
+          ],
+          [
+            -0.4759556,
+            51.4637048
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Link-W",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Link-C",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4543,
+            51.4762952
+          ],
+          [
+            -0.4543,
+            51.4637048
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Link-C",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-Link-E",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4326444,
+            51.4762952
+          ],
+          [
+            -0.4326444,
+            51.4637048
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "Link-E",
+        "width_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-2-&-3-CENTRAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.4629622,
+              51.4677517
+            ],
+            [
+              -0.4456378,
+              51.4677517
+            ],
+            [
+              -0.4456378,
+              51.472698
+            ],
+            [
+              -0.4629622,
+              51.472698
+            ],
+            [
+              -0.4629622,
+              51.4677517
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 2 & 3 Central"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-5-CONCOURSE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.478843,
+              51.4682014
+            ],
+            [
+              -0.4716245,
+              51.4682014
+            ],
+            [
+              -0.4716245,
+              51.4731476
+            ],
+            [
+              -0.478843,
+              51.4731476
+            ],
+            [
+              -0.478843,
+              51.4682014
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 5 Concourse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T5-A10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4766775,
+          51.4708993
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T5-A10",
+        "heading_deg": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T5-A18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.47379,
+          51.4708993
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T5-A18",
+        "heading_deg": 270.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T2-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4571874,
+          51.4704497
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T2-12",
+        "heading_deg": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T2-24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4514126,
+          51.4704497
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T2-24",
+        "heading_deg": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-LAM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0789361,
+          51.6318777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "LAM",
+        "role": "arrival",
+        "altitude_ft": 7000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-BIG",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1944327,
+          51.2721495
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "BIG",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-OCK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5697966,
+          51.2541631
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "OCK",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-BNN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.656419,
+          51.7038233
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "BNN",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-CPT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9162863,
+          51.5059728
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "CPT",
+        "role": "departure",
+        "altitude_ft": 9000.0
+      }
+    }
+  ]
+}

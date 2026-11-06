@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "vabb",
+    "icao": "VABB",
+    "name": "Mumbai Chhatrapati Shivaji Maharaj (BOM, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 19.0896,
+      "lon": 72.8656,
+      "elevation_ft": 39.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-09-27",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8484702,
+            19.0896
+          ],
+          [
+            72.8827298,
+            19.0896
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09",
+          "27"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-14-32",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8564261,
+            19.0999332
+          ],
+          [
+            72.8747739,
+            19.0792668
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "14",
+          "32"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8484702,
+            19.0912188
+          ],
+          [
+            72.8827298,
+            19.0912188
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-N",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8484702,
+            19.0879812
+          ],
+          [
+            72.8827298,
+            19.0879812
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "N",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-W",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8575109,
+            19.0990429
+          ],
+          [
+            72.8736891,
+            19.0801571
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "W",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-2-CONCOURSE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.8675033,
+              19.092298
+            ],
+            [
+              72.8770198,
+              19.092298
+            ],
+            [
+              72.8770198,
+              19.0963449
+            ],
+            [
+              72.8675033,
+              19.0963449
+            ],
+            [
+              72.8675033,
+              19.092298
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 2 Concourse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-TERMINAL-1-DOMESTIC",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.8522769,
+              19.0873517
+            ],
+            [
+              72.8589384,
+              19.0873517
+            ],
+            [
+              72.8589384,
+              19.0837544
+            ],
+            [
+              72.8522769,
+              19.0837544
+            ],
+            [
+              72.8522769,
+              19.0873517
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Terminal 1 Domestic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T2-42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8698824,
+          19.0940966
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T2-42",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T2-48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8727374,
+          19.0940966
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T2-48",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-T1-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8541802,
+          19.0855531
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-T1-02",
+        "heading_deg": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-BBB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6562362,
+          18.9457087
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "BBB",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-EPKOS",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6276866,
+          19.1975184
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "EPKOS",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-MABES",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0939968,
+          19.2514777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "MABES",
+        "role": "departure",
+        "altitude_ft": 8000.0
+      }
+    }
+  ]
+}

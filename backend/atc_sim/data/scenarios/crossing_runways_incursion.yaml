@@ -1,0 +1,84 @@
+id: crossing_runways_incursion
+name: Crossing Runways & Taxiway Incursion (XGEN)
+description: >-
+  Departs BAW204 on Runway 09/27 while DAL812 approaches Runway 04/22 and
+  EZY409 taxis southbound on Taxiway C toward the active runway.
+airport_id: genfield
+duration_ms: 90000
+default_seed: 42
+spawns:
+  - callsign: BAW204
+    aircraft_type: A320
+    spawn_time_ms: 0
+    role: departure
+    initial_phase: lined_up
+    position: [-1420.0, 0.0]
+    heading_deg: 90.0
+    speed_kts: 0.0
+    target_speed_kts: 145.0
+    altitude_ft: 120.0
+    assigned_runway: "09/27"
+    route:
+      - [1500.0, 0.0]
+      - [4500.0, 0.0]
+    cleared_takeoff: true
+  - callsign: EZY409
+    aircraft_type: B738
+    spawn_time_ms: 0
+    role: surface
+    initial_phase: taxi_out
+    position: [-300.0, 260.0]
+    heading_deg: 180.0
+    speed_kts: 18.0
+    target_speed_kts: 18.0
+    altitude_ft: 120.0
+    assigned_runway: "04/22"
+    hold_short_of: "09/27"
+    route:
+      - [-300.0, 180.0]
+      - [-300.0, 0.0]
+      - [-300.0, -450.0]
+  - callsign: DAL812
+    aircraft_type: B739
+    spawn_time_ms: 0
+    role: arrival
+    initial_phase: final_approach
+    position: [-750.0, -1610.0]
+    heading_deg: 40.0
+    speed_kts: 135.0
+    target_speed_kts: 135.0
+    altitude_ft: 450.0
+    assigned_runway: "04/22"
+    route:
+      - [-107.07, -842.65]
+      - [600.0, 0.0]
+      - [1307.07, 842.65]
+    cleared_land: true
+  - callsign: UAL551
+    aircraft_type: A321
+    spawn_time_ms: 0
+    role: departure
+    initial_phase: taxi_out
+    position: [-950.0, 180.0]
+    heading_deg: 90.0
+    speed_kts: 16.0
+    target_speed_kts: 16.0
+    altitude_ft: 120.0
+    assigned_runway: "04/22"
+    hold_short_of: "04/22"
+    route:
+      - [850.0, 180.0]
+      - [1100.0, 180.0]
+triggers:
+  - id: trig-ezy-incursion
+    time_ms: 5000
+    callsign: EZY409
+    action: disregard_hold_short
+    runway: "09/27"
+    note: Pilot mishears clearance and rolls across Runway 09/27 hold-short bar on Taxiway C
+  - id: trig-ual-cross
+    time_ms: 18000
+    callsign: UAL551
+    action: cross_runway
+    runway: "04/22"
+    note: Requests crossing Runway 04/22 on Taxiway A while DAL812 is on short final

@@ -1,0 +1,287 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "voci",
+    "icao": "VOCI",
+    "name": "Cochin International Airport (COK, Kerala, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 10.1556,
+      "lon": 76.3912,
+      "elevation_ft": 30.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-09-27",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3756682,
+            10.1556
+          ],
+          [
+            76.4067318,
+            10.1556
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "09",
+          "27"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3756682,
+            10.1572188
+          ],
+          [
+            76.4067318,
+            10.1572188
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3802364,
+            10.1572188
+          ],
+          [
+            76.3802364,
+            10.1556
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A1",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3884591,
+            10.1572188
+          ],
+          [
+            76.3884591,
+            10.1556
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A2",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3985091,
+            10.1572188
+          ],
+          [
+            76.3985091,
+            10.1556
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A3",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.4067318,
+            10.1572188
+          ],
+          [
+            76.4067318,
+            10.1556
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A4",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-T3-INTERNATIONAL-&-DOMESTIC",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3838909,
+              10.1578483
+            ],
+            [
+              76.3985091,
+              10.1578483
+            ],
+            [
+              76.3985091,
+              10.1614456
+            ],
+            [
+              76.3838909,
+              10.1614456
+            ],
+            [
+              76.3838909,
+              10.1578483
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "T3 International & Domestic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-COK-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3866318,
+          10.1591973
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-COK-01",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-COK-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3912,
+          10.1591973
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-COK-06",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-COK-11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3957682,
+          10.1591973
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-COK-11",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-CIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2084731,
+          10.0476816
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "CIA",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-NOKID",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2267458,
+          10.3174777
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "NOKID",
+        "role": "arrival",
+        "altitude_ft": 5500.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-LATUM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5921996,
+          10.2815049
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "LATUM",
+        "role": "departure",
+        "altitude_ft": 7000.0
+      }
+    }
+  ]
+}

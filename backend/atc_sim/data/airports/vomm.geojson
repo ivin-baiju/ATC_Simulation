@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "airport": {
+    "id": "vomm",
+    "icao": "VOMM",
+    "name": "Chennai International Airport (MAA, India)",
+    "fictional": false,
+    "reference": {
+      "lat": 12.9941,
+      "lon": 80.1709,
+      "elevation_ft": 52.0
+    },
+    "magnetic_variation_deg": 0.0,
+    "notes": "Real-world accurate layout."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RWY-07-25",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1551153,
+            12.9885019
+          ],
+          [
+            80.1866847,
+            12.9996981
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "07",
+          "25"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RWY-12-30",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1609012,
+            12.9977872
+          ],
+          [
+            80.177207,
+            12.9886141
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "runway",
+        "designators": [
+          "12",
+          "30"
+        ],
+        "width_m": 45.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-A",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1561327,
+            12.9966181
+          ],
+          [
+            80.1856673,
+            12.9966181
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "A",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TWY-B",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1561327,
+            12.9915819
+          ],
+          [
+            80.1856673,
+            12.9915819
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "taxiway",
+        "name": "B",
+        "width_m": 25.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "APRON-MAIN-PASSENGER-TERMINAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.1653623,
+              12.996798
+            ],
+            [
+              80.1764377,
+              12.996798
+            ],
+            [
+              80.1764377,
+              13.0008449
+            ],
+            [
+              80.1653623,
+              13.0008449
+            ],
+            [
+              80.1653623,
+              12.996798
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "apron",
+        "name": "Main Passenger Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-MAA-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1685926,
+          12.9985966
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-MAA-05",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GATE-G-MAA-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1732074,
+          12.9985966
+        ]
+      },
+      "properties": {
+        "kind": "gate",
+        "name": "G-MAA-12",
+        "heading_deg": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-IDASO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9401614,
+          13.1200049
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "IDASO",
+        "role": "arrival",
+        "altitude_ft": 6000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-MMV",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3739499,
+          12.8502087
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "MMV",
+        "role": "arrival",
+        "altitude_ft": 5000.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FIX-DOPID",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3554908,
+          13.1919505
+        ]
+      },
+      "properties": {
+        "kind": "fix",
+        "name": "DOPID",
+        "role": "departure",
+        "altitude_ft": 7000.0
+      }
+    }
+  ]
+}

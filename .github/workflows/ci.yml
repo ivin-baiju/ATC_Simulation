@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: uv sync --frozen
+      - name: Lint & format check (Ruff)
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - name: Typecheck (mypy)
+        run: uv run mypy
+      - name: Verify bundled airport GeoJSON files are fresh
+        run: uv run python scripts/make_sample_airports.py --check
+      - name: Run unit tests (pytest)
+        run: uv run pytest
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Typecheck (tsc)
+        run: npm run typecheck
+      - name: Run unit & WCAG contrast tests (Vitest)
+        run: npm test
+      - name: Production build
+        run: npm run build
